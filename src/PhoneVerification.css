@@ -1,0 +1,57 @@
+
+
+.otp-input {
+    width: 65px;
+    height: 100px;
+    font-size: 3rem;
+    text-align: center;
+    border: 1px solid lightgray;
+    /* margin: 0 px; */
+    border-radius: 4px;
+    outline: none;
+
+}
+.otp-input:focus {
+    border: 3px solid #9db8f5;
+    border-radius: 8px;
+    width: 68px;
+    height: 103px;
+}
+
+
+.otp-input:not(:placeholder-shown) {
+    
+    margin: 3px;
+    border: 1px solid #9db8f5;
+    box-shadow: 0 3px 5px rgb(215, 212, 212);
+}
+.popup-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otp-inputs {
+    width: 600px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.otp-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+button{
+    margin: 23px;
+    padding: 10px;
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font: message-box;
+}
