@@ -1,0 +1,76 @@
+/* ContactList.css */
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details {
+    flex: 1;
+  }
+  
+  .contact-name {
+    color: gray;
+    display: block;
+  }
+  
+  .contact-email {
+    color: #888;
+  }
+  
+  .contact-actions {
+    display: flex;
+  }
+  
+  .delete-button,
+  .edit-button {
+    background-color: #f44336;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 8px 12px;
+    text-transform: uppercase;
+  }
+  
+  .edit-button {
+    background-color: #4caf50;
+  }
+  
+  .edit-form {
+    margin-top: 10px;
+  }
+  
+  .edit-input {
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .save-button {
+    background-color: #2196f3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    text-transform: uppercase;
+  }
+  
