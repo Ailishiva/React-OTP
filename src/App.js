@@ -1,6 +1,6 @@
 
 import './App.css';
-import PhoneVerification from './Component/PhoneVerification';
+import PhoneVerification from './PhoneVerification';
 
 function App() {
   return (
